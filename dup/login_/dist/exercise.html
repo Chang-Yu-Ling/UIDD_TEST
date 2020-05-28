@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>http & ajax exercise</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+
+<!--=========form [ajax-form] ajax取值================================================================================-->
+<form id="ajax-form">                                                                    <!--id="ajax-form",type="submit"// field name[html的]-->   
+  被乘數: <input type="text" name="fName" ><br>
+  乘數&emsp;: <input type="text" name="lName" ><br>
+  <!--減數&emsp;: <input type="text" name="sName"><br>-->
+<!--onchange="$('#b_choose').get(0).click();"-->
+
+  <button type="submit" id="b_choose">submit via ajax</button>
+</form>
+
+<!--=========form [ajax-output] ajax回顯================================================================================-->
+<h1 id="ajax-output"></h1>
+
+    <!--<h1>this is your static file</h1>
+    <p>Here is something long that you don't want to put in js.</p>-->
+
+
+
+    <script src="./exercise.js"></script>
+  </body>
+</html>
